@@ -20,7 +20,7 @@ def compare(guess, number):
 guesses_left = 0
 win = False
 
-print("Welcome to Number Guesser!\n I'm thinking of a number between 1-100")
+print("Welcome to Number Guesser!\n I'm thinking of a number between 1-100\n")
 difficulty = input("What difficulty would you like to play on? easy/hard: ")
 
 if difficulty == "easy":
